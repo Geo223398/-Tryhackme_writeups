@@ -9,11 +9,14 @@ The conversation contained a Komoot profile link:
 http://www.komoot.com/user/5667624959835
 After opening the profile, the retired hacker's identity was revealed.
 <br>
+<br>
  <img width="940" height="417" alt="image" src="https://github.com/user-attachments/assets/227111db-6be3-4a49-b21f-0cba4e079583" />
 
 **Answer 1**
 What is the retired hacker's full name?
 Jim Lee
+<br>
+<br>
 ________________________________________
 **Step 2: GitHub Enumeration**
 <br>
@@ -23,8 +26,9 @@ https://github.com/jiml33t
 While examining the repositories, the commit history appeared interesting.
 Repository commits:
 https://github.com/jiml33t/jiml33t/commits/main/
+<br>
 One commit stood out:
-7b2c8e0a540c36f2e09da5945066020621d6a059
+```7b2c8e0a540c36f2e09da5945066020621d6a059```
 Git commit metadata often contains information that is not immediately visible on the repository page, such as usernames and email addresses.
 
 Clone the Repository
@@ -74,26 +78,36 @@ index 0000000..488f2e9
 ```
 
 Initial commit
-The commit metadata exposed the author's email address.
+The commit metadata exposed the author's email address
+<br>
+<br>
 **Answer 2**
 What email address did he accidentally expose?
 jimleepro1@gmail.com
+<br>
 ________________________________________
 **Step 3: Email Investigation**
 Using the exposed email address, an email was sent to the target as instructed by the challenge.
+<br>
 
 The automated response contained additional contact information.
+<br>
  <img width="940" height="466" alt="image" src="https://github.com/user-attachments/assets/1f1deeeb-60a4-4809-ae28-54e0bc6d6e9c" />
 
-Answer 3
+<br>
+**Answer 3**
 What is his phone number?
 +40 743 321 239
 The Romanian country code (+40) would later become an important geographical clue.
 ________________________________________
-Step 4: Username Enumeration
+<br>
+<br>
+**Step 4: Username Enumeration**
+<br>
 To identify additional online accounts associated with the target, username enumeration was performed.
-
-Using holehe
+<br>
+**Using holehe**
+```
 sudo apt update
 pipx –version ( if not installed install (sudo apt install pipx -y))
 pipx install holehe
@@ -107,10 +121,11 @@ For BTC Donations : 1FHDM49QfZX6pJmhjLE5tB2K6CaTLMZpXZ
 100%|██████████████████████████████████████████████████████████████| 121/121 [00:10<00:00, 11.22it/s]
                                                                                                       
 ┌──(alone㉿kali)-[~]
-
+```
+<br>
 But the result is not giving much info like expected trying with maigret
-
-                                                                                                    
+<br>
+```                                                                                       
 ┌──(alone㉿kali)-[~]
 └─$ pipx install maigret
   installed package maigret 0.6.1, installed using Python 3.13.12
@@ -160,22 +175,25 @@ Interests (tags): social, coding, photo, sharing
 ┌──(alone㉿kali)-[~]
 └─$
 
-
-
 holehe jimleepro1@gmail.com
 While Holehe confirmed the email existed on multiple platforms, it did not provide enough useful information for the challenge.
-Maigret
-pipx install maigret
+<br>
+**Maigret**
+<br>
+```
+<br>
+**Results:**
+<br>
 
-maigret jiml33t
-Results:
 Instagram: https://www.instagram.com/jiml33t/
 GitHub: https://github.com/jiml33t
 Threads: https://www.threads.net/@jiml33t
 Mastodon: https://mastodon.cloud/@jiml33t
 The Threads account looked particularly promising.
 ________________________________________
-Step 5: Threads Investigation
+<br>
+**Step 5: Threads Investigation**
+<br>
 The Threads profile contained several posts.
 One post mentioned:
 Finished my last run before the big day and heading on the tram for a coffee at my favourite French supermarket.
@@ -184,9 +202,10 @@ The attached image provided a valuable geolocation clue.
 
 After carefully examining the image, a visible sign could be seen on the left side of the road:
 IRIGATII.RO
- 
+ <br>
 ________________________________________
-Step 6: Geolocation
+**Step 6: Geolocation**
+<br>
 The sign was searched online:
 IRIGATII.RO Romania
 Using Google Maps and Street View, the surrounding area was compared with the image posted on Threads.
@@ -201,11 +220,12 @@ Matching indicators included:
 •	Nearby surroundings
 The location matched an area on DJ592 in Timișoara, Romania.
 Combined with the Romanian phone number (+40), this strongly confirmed the location.
-Answer 4
+**Answer 4**
 In which city is he located?
 Timișoara
 ________________________________________
-Step 7: Identifying the Tram Station
+**Step 7: Identifying the Tram Station**
+<br>
 The final challenge required identifying the tram station where Jim got off on 7 May 2026.
 Using:
 •	The Threads post
@@ -213,11 +233,13 @@ Using:
 •	Nearby tram routes
 •	Local transport infrastructure
 The most likely matching tram stop was determined.
-Answer 5
+**Answer 5**
+<br>
 At which tram station did he get off?
 Piața Gheorghe Domășneanu
 ________________________________________
-Final Answers
+**Final Answers**
+
 Question	Answer
 Retired hacker's full name	Jim Lee
 Exposed email address	jimleepro1@gmail.com
