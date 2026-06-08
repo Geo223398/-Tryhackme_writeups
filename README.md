@@ -236,14 +236,3 @@ The most likely matching tram stop was determined.
 | Tram station | Piața Gheorghe Domășneanu |
 
 ---
-
-## Techniques Used
-
-- OSINT Investigation
-- GitHub Commit Analysis
-- Email Enumeration
-- Username Enumeration
-- Social Media Pivoting
-- Geolocation
-- Google Street View Analysis
-- Transport Infrastructure Analysis
