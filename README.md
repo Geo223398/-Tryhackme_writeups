@@ -90,7 +90,7 @@ Using the exposed email address, an email was sent to the target as instructed b
 
 The automated response contained additional contact information.
 
-<img width="940" height="466" alt="image" src="YOUR_IMAGE_URL_HERE" />
+ <img width="940" height="466" alt="image" src="https://github.com/user-attachments/assets/1f1deeeb-60a4-4809-ae28-54e0bc6d6e9c" />
 
 ### Answer 3
 
@@ -161,7 +161,7 @@ One post mentioned:
 
 The attached image provided a valuable geolocation clue.
 
-<img width="940" height="446" alt="image" src="YOUR_IMAGE_URL_HERE" />
+<img width="940" height="446" alt="image" src="https://github.com/user-attachments/assets/603378c7-7efe-4919-8cfc-ba31edfa5b03" />
 
 After carefully examining the image, a visible sign could be seen on the left side of the road:
 
@@ -181,7 +181,7 @@ IRIGATII.RO Romania
 
 Using Google Maps and Street View, the surrounding area was compared with the image posted on Threads.
 
-<img width="940" height="512" alt="image" src="YOUR_IMAGE_URL_HERE" />
+ <img width="940" height="512" alt="image" src="https://github.com/user-attachments/assets/81cf1781-c045-4720-9320-5b94da9da686" />
 
 Matching indicators included:
 
