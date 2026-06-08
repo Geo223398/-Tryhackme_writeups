@@ -70,12 +70,13 @@ index 0000000..488f2e9
 
 Initial commit
 The commit metadata exposed the author's email address.
-Answer 2
+**Answer 2**
 What email address did he accidentally expose?
 jimleepro1@gmail.com
 ________________________________________
-Step 3: Email Investigation
+**Step 3: Email Investigation**
 Using the exposed email address, an email was sent to the target as instructed by the challenge.
+
 The automated response contained additional contact information.
  <img width="940" height="466" alt="image" src="https://github.com/user-attachments/assets/1f1deeeb-60a4-4809-ae28-54e0bc6d6e9c" />
 
