@@ -16,7 +16,8 @@ http://www.komoot.com/user/5667624959835
 
 After opening the profile, the retired hacker's identity was revealed.
 
-<img width="940" height="417" alt="image" src="YOUR_IMAGE_URL_HERE" />
+ <img width="940" height="417" alt="image" src="https://github.com/user-attachments/assets/227111db-6be3-4a49-b21f-0cba4e079583" />
+
 
 ### Answer 1
 
