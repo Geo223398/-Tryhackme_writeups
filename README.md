@@ -305,16 +305,3 @@ The most likely matching tram stop was determined.
 
 **Piața Gheorghe Domășneanu**
 
----
-
-## Final Answers
-
-| Question | Answer |
-|-----------|---------|
-| Retired hacker's full name | Jim Lee |
-| Exposed email address | jimleepro1@gmail.com |
-| Phone number | +40 743 321 239 |
-| City | Timișoara |
-| Tram station | Piața Gheorghe Domășneanu |
-
----
