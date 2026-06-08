@@ -1,11 +1,14 @@
 **Cache Me Outside - TryHackMe Walkthrough
 Objective**
+<br>
 The challenge provides a short conversation between two individuals. Our goal is to identify a retired hacker using the limited information available and answer a series of OSINT-based questions.
 ________________________________________
 **Step 1: Investigating the Komoot Profile**
+<br>
 The conversation contained a Komoot profile link:
 http://www.komoot.com/user/5667624959835
 After opening the profile, the retired hacker's identity was revealed.
+<br>
  <img width="940" height="417" alt="image" src="https://github.com/user-attachments/assets/227111db-6be3-4a49-b21f-0cba4e079583" />
 
 **Answer 1**
@@ -13,8 +16,10 @@ What is the retired hacker's full name?
 Jim Lee
 ________________________________________
 **Step 2: GitHub Enumeration**
+<br>
 The Komoot profile contained a link to a GitHub account:
 https://github.com/jiml33t
+<br>
 While examining the repositories, the commit history appeared interesting.
 Repository commits:
 https://github.com/jiml33t/jiml33t/commits/main/
