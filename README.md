@@ -130,7 +130,9 @@ To identify additional online accounts associated with the target, username enum
 
 ### Using Holehe
 
-Installation:
+```bash
+holehe jimleepro1@gmail.com
+```
 
 ```bash
 pipx install holehe
@@ -151,11 +153,6 @@ For BTC Donations : 1FHDM49QfZX6pJmhjLE5tB2K6CaTLMZpXZ
 
 ```
 
-Usage:
-
-```bash
-holehe jimleepro1@gmail.com
-```
 
 Although Holehe confirmed the email existed on multiple platforms, it did not provide enough information for the challenge.
 
