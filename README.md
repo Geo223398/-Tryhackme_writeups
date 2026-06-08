@@ -65,13 +65,14 @@ index 0000000..488f2e9
 +Here are some ideas to get you started:
 +
 +- 🔭 I’m currently working on ...
-+- 🌱 I’m currently learning ...
++- 🌱 I’m currently learning
+```
 
 Initial commit
 The commit metadata exposed the author's email address.
 Answer 2
 What email address did he accidentally expose?
-jimleepro1@gmail.com```
+jimleepro1@gmail.com
 ________________________________________
 Step 3: Email Investigation
 Using the exposed email address, an email was sent to the target as instructed by the challenge.
