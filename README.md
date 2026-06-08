@@ -62,6 +62,28 @@ cd jiml33t
 
 ```bash
 git show 7b2c8e0a540c36f2e09da5945066020621d6a059
+commit 7b2c8e0a540c36f2e09da5945066020621d6a059 (HEAD -> main, origin/main, origin/HEAD)
+Author: jimleepro1-cell <jimleepro1@gmail.com>
+Date:   Thu Apr 16 03:27:19 2026 -0400
+
+    Initial commit
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..488f2e9
+--- /dev/null
++++ b/README.md
+@@ -0,0 +1,16 @@
++## Hi there 👋
++
++<!--
++**jimleepro1-cell/jimleepro1-cell** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
++
++Here are some ideas to get you started:
++
++- 🔭 I’m currently working on ...
++- 🌱 I’m currently learning ...
+
 ```
 
 Relevant output:
@@ -111,9 +133,22 @@ To identify additional online accounts associated with the target, username enum
 Installation:
 
 ```bash
-sudo apt update
-sudo apt install pipx -y
 pipx install holehe
+sudo apt update
+pipx –version ( if not installed install (sudo apt install pipx -y))
+pipx install holehe
+running - holehe jimleepro1@gmail.com
+
+[+] Email used, [-] Email not used, [x] Rate limit
+121 websites checked in 10.8 seconds
+Twitter : @palenath
+Github : https://github.com/megadose/holehe
+For BTC Donations : 1FHDM49QfZX6pJmhjLE5tB2K6CaTLMZpXZ
+100%|██████████████████████████████████████████████████████████████| 121/121 [00:10<00:00, 11.22it/s]
+                                                                                                      
+┌──(alone㉿kali)-[~]
+
+
 ```
 
 Usage:
@@ -136,6 +171,56 @@ Usage:
 
 ```bash
 maigret jiml33t
+
+┌──(alone㉿kali)-[~]
+└─$ pipx install maigret
+  installed package maigret 0.6.1, installed using Python 3.13.12
+  These apps are now available
+    - maigret
+    - update_sitesmd
+done! ✨ 🌟 ✨
+                                                                                                      
+┌──(alone㉿kali)-[~]
+└─$ maigret jiml33t
+[*] DB auto-update: checking for updates...
+[*] DB auto-update: downloading database (3159 sites)...
+[+] DB auto-update: database updated successfully (3159 sites)
+[+] Using sites database: /home/alone/.maigret/data.json (3159 sites)
+[-] Starting a search on top 509 sites from the Maigret database...
+[!] You can run search by full list of sites with flag `-a`
+[*] Checking username jiml33t on:
+[+] Instagram: https://www.instagram.com/jiml33t/
+       └─username: jiml33t
+[+] GitHub: https://github.com/jiml33t
+       ├─uid: 276522146
+       ├─image: https://avatars.githubusercontent.com/u/276522146?v=4
+       ├─created_at: 2026-04-16T07:24:48Z
+       ├─follower_count: 35
+       ├─following_count: 0
+       ├─public_gists_count: 0
+       ├─public_repos_count: 1
+       ├─bio: Currently starting my security consulting firm | Ex-Hacker | Avid Runner
+       └─is_company: Jim Lee Security Consulting
+[+] Threads: https://www.threads.net/@jiml33t
+        ├─fullname: JimLee
+        ├─username: jiml33t
+        ├─follower_count: 9
+        └─posts_count: 3
+[+] mastodon.cloud: https://mastodon.cloud/@jiml33t
+[+] GitHubGist [GitHub]: https://gist.github.com/jiml33t
+Searching |████████████████████████████████████████| 509/509 [100%] in 43.3s (11.79/s) 
+[!] Too many errors of type "Access denied" (10.0%)
+[-] You can see detailed site check errors with a flag `--print-errors`
+[-] Extracted IDs: {'jiml33t': 'username'}
+[*] Short text report:
+Search by username jiml33t returned 5 accounts.
+Extended info extracted from 3 accounts.
+Countries: pk
+Interests (tags): social, coding, photo, sharing
+                                                                                                      
+┌──(alone㉿kali)-[~]
+└─$
+
 ```
 
 Results:
